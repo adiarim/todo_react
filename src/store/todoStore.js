@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const useTodoStore = create((set) => ({
     todos: [],
